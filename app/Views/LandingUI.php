@@ -13,5 +13,8 @@
     <!-- navbar -->
     <h1>Selamat Datang Admin</h1>
     <h2>Selamat Datang leo</h2>
+    <a href="/SignUp/">
+        <h2>Sign Up</h2>
+    </a>
 </body>
 </html>
