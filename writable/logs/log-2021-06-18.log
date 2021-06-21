@@ -1,0 +1,10 @@
+CRITICAL - 2021-06-18 11:09:21 --> Invalid file: LandingUI.php
+#0 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('LandingUI.php')
+#1 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('LandingUI', Array, true)
+#2 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\app\Controllers\Home.php(13): view('LandingUI', Array)
+#3 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 F:\rahasia negara\NGODING\IotPlatform\iot-code-igniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('F:\\rahasia nega...')
+#8 {main}
