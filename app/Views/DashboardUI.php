@@ -2,10 +2,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title><?= $title; ?></title>
     <link rel="stylesheet" type="text/css" href="/style/styleHome.css">
     <meta name="viewport" content="width=device-width,initial-scle=1">
     <script src="https://kit.fontawesome.com/891b41940f.js"></script>
+    <title><?= $title ; ?></title>
 </head>
 
 <body>
