@@ -8,7 +8,7 @@ class Dashboard extends BaseController
 	public function index()
 	{
 		$data = [
-            'title' => 'Dashboard | CCIT'
+            'title' => 'Home | Super Corp'
         ];
 		return view('DashboardUI' ,$data);
 	}

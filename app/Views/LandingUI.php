@@ -10,7 +10,7 @@
 
 <body>
     <div class="header">
-        <img src="imgLeo/Vector.png" alt="logo_perusahaan">
+        <img src="/imgLeo/Vector.png" alt="logo_perusahaan">
         <h2 class="logo">Special</h2>
         <h2 class="logo2">Corp</h2>
 
@@ -33,35 +33,36 @@
 
             </p>
 
+            <a href="/SignUp/" class="hero-btn">Get Started</a>
+
         </div>
         <div class="kanan">
             <img src="/imgLeo/cuate.png" alt="foto2">
         </div>
     </div>
-    <a href="/SignUp/">
-        <div class="btn">
-            <button type="button">Get Started</button>
-        </div>
-    </a>
+
+
+
 
     <section class="service">
         <h1>Service we offer<h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto debitis, impedit totam</p>
+
                 <div class="row">
                     <div class="service-col">
-                        <h3>Arduino</h3>
+                        <img src="/imgLeo/mobile (1).png" alt="">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nemo voluptates quasi natus reiciendis.
                             Velit porro ducimus nam voluptatem, repellat optio explicabo asperiores dolor ullam incidunt
                             maiores quo error ipsam!</p>
                     </div>
                     <div class="service-col">
-                        <h3>Nodemcu</h3>
+                        <img src="/imgLeo/mobile (2).png" alt="">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nemo voluptates quasi natus reiciendis.
                             Velit porro ducimus nam voluptatem, repellat optio explicabo asperiores dolor ullam incidunt
                             maiores quo error ipsam!</p>
                     </div>
                     <div class="service-col">
-                        <h3>Lora</h3>
+                        <img src="/imgLeo/mobile (3).png" alt="">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nemo voluptates quasi natus reiciendis.
                             Velit porro ducimus nam voluptatem, repellat optio explicabo asperiores dolor ullam incidunt
                             maiores quo error ipsam!</p>

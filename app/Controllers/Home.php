@@ -8,8 +8,9 @@ class Home extends BaseController
 	public function index()
 	{
 		$data = [
-			'titlePage' => 'Home | Super Corp'
+			'title' => 'Welcome to Super Corp'
 		];
+		
 		return view('LandingUI',$data);
 	}
 }
