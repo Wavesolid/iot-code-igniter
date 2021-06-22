@@ -68,12 +68,13 @@ img {
     line-height: 100px;
 }
 
+/* EFEK PADA NAVBAR */
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover {
     color: rgb(21, 212, 85);
 }
-
+/* UNTUK SET HEADER */
 #chk {
     position: absolute;
     visibility: hidden;
@@ -86,6 +87,7 @@ img {
     padding: 20px;
 }
 
+/* PEMISAHAN KONTENT */
 .content.kiri {
     padding: 0 20px;
     float: left;	
@@ -106,7 +108,7 @@ img {
     text-align: justify;
     padding: 20px;
 }
-
+/* BUTTON GET STARTED */
 .btn{
     background-color: #4CAF50; /* Green */
     border: none;
@@ -121,6 +123,7 @@ img {
     
 }
 
+/* BAGIAN SERVICE */
 .service h1{
     font-size: 36px;
     font-weight: 600;
@@ -147,9 +150,11 @@ img {
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.7);
 
 }
 
+/* UNTUK NAVBAR */
 @media screen and (max-width: 500px) {
     .show-menu-btn,
     .hide-menu-btn {
