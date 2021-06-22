@@ -83,10 +83,11 @@ img {
 .content{
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding-left: 20px;
 }
 
 .content.kiri {
+   
     padding: 0 20px;
     float: left;	
 	width: 50%;
@@ -122,8 +123,9 @@ img {
 }
 
 .hero-btn:hover{
-    border: 1px solid #000000;
-    background:#48E3D1;
+    border: 1px solid rgb(21, 212, 85);
+    color: #ffffff  ;
+    background:rgb(21, 212, 85);
     transition: 1s;
 
 }
@@ -150,6 +152,8 @@ img {
 }
 
 .service-col{
+    
+    
     flex-basis: 31%;
     background: rgb(255, 255, 255);
     border-radius: 10px;
@@ -157,7 +161,14 @@ img {
     padding: 20px 12px;
     box-sizing: border-box;
     box-shadow: -15px 15px 10px rgba(0,0,0,0.7);
+    align-self: center;
+}
 
+.service-col img{
+    
+    text-align: center;
+
+    
 }
 
 @media screen and (max-width: 500px) {
