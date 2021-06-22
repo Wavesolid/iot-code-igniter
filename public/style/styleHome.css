@@ -152,8 +152,10 @@ img {
 }
 
 .service-col{
-    
-    
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-basis: 31%;
     background: rgb(255, 255, 255);
     border-radius: 10px;
@@ -171,7 +173,7 @@ img {
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .show-menu-btn,
     .hide-menu-btn {
         display: block;
