@@ -1,22 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' href='style.php' />
-    <link rel="stylesheet" href="/style/landingPage.css">
+<html lang="en" dir="ltr">
 
-    <title><?= $titlePage?></title>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/style/styleHome.css">
+    <meta name="viewport" content="width=device-width,initial-scle=1">
+    <script src="https://kit.fontawesome.com/891b41940f.js"></script>
 </head>
+
 <body>
-    <!-- navbar -->
-    <h1>Selamat Datang Admin</h1>
-    <h2>Selamat Datang leo</h2>
+    <div class="header">
+        <img src="imgLeo/Vector.png" alt="logo_perusahaan">
+        <h2 class="logo">Special</h2>
+        <h2 class="logo2">Corp</h2>
+
+
+        <ul class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </ul>
+    </div>
+    <div class="content">
+        <div class="kiri">
+            <p>
+            <h1>Lorem Ipsum</h1> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentialsly unchanged. It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </p>
+
+        </div>
+        <div class="kanan">
+            <img src="/imgLeo/cuate.png" alt="foto2">
+        </div>
+    </div>
     <a href="/SignUp/">
-        <h2>Sign Up</h2>
+        <div class="btn">
+            <button type="button">Get Started</button>
+        </div>
     </a>
 
-    
+    <section class="service">
+        <h1>Service we offer<h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto debitis, impedit totam</p>
+
+                <div class="row">
+                    <div class="service-col">
+                        <h3>Arduino</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nemo voluptates quasi natus reiciendis.
+                            Velit porro ducimus nam voluptatem, repellat optio explicabo asperiores dolor ullam incidunt
+                            maiores quo error ipsam!</p>
+                    </div>
+                    <div class="service-col">
+                        <h3>Nodemcu</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nemo voluptates quasi natus reiciendis.
+                            Velit porro ducimus nam voluptatem, repellat optio explicabo asperiores dolor ullam incidunt
+                            maiores quo error ipsam!</p>
+                    </div>
+                    <div class="service-col">
+                        <h3>Lora</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nemo voluptates quasi natus reiciendis.
+                            Velit porro ducimus nam voluptatem, repellat optio explicabo asperiores dolor ullam incidunt
+                            maiores quo error ipsam!</p>
+                    </div>
+                </div>
+
+    </section>
+
 
 </body>
+
 </html>
