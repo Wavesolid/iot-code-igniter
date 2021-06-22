@@ -130,3 +130,15 @@ CRITICAL - 2021-06-22 09:21:17 --> Undefined variable $title
 #8 C:\xampp\htdocs\ProjectCcitWEB\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 C:\xampp\htdocs\ProjectCcitWEB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
 #10 {main}
+CRITICAL - 2021-06-22 10:35:11 --> Undefined variable $title
+#0 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\app\Views\LandingUI.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'F:\\rahasia nega...', 5)
+#1 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\vendor\codeigniter4\framework\system\View\View.php(230): include('F:\\rahasia nega...')
+#2 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('LandingUI', Array, true)
+#4 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\app\Controllers\Home.php(13): view('LandingUI', Array)
+#5 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\rahasia negara\NGODING\IotPlatform\baru\iot-code-igniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('F:\\rahasia nega...')
+#10 {main}

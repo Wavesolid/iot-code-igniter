@@ -22,10 +22,17 @@
                 </div>
                 <div class="formulir">
                     <form>
-                        <input type="text" name="email" placeholder="email">
-                        <input type="text" name="username" placeholder="username">
-                        <input type="text" name="password" placeholder="password">
+                        <input type="text" name="email" placeholder="email" autofocus = "off" value="">
+                        <input type="text" name="username" placeholder="username" autofocus = "off" value="">
+                        <input type="password" name="password" placeholder="password" autofocus = "off" value="">
+                        
                     </form>
+                </div>
+                <div class="btnSignUp">
+                    <button type="submit">SignUp</button>
+                </div>
+                <div class="btnLogin">
+                    <p>have an account? <a href="">Log in</a> here</p>
                 </div>
             </div>
             <div class="kotak-kanan">

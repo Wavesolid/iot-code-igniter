@@ -102,14 +102,14 @@ h3{
     margin-top: 24px;
 }
 
-.kotak-kiri .btnSignUp{
+.kotak-kiri .btnLogin{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 24px;
 }
 
-.btnSignUp button{
+.btnLogin button{
     background: linear-gradient(269.67deg, #48E3D1 0.3%, rgba(72, 227, 209, 0.48) 99.72%);
     border-radius: 15px;
     width: 283px;
@@ -123,8 +123,8 @@ h3{
     color: white;
 }
 
-.kotak-kiri .btnLogin{
-    margin-top: 24px;
+.kotak-kiri .btnSignUp{
+    margin-top: 72px;
     margin-left: 36px;
     font-weight: 500;
     font-size: 14px;
@@ -132,14 +132,13 @@ h3{
     color: rgba(121, 121, 121, 0.83);
 }
 
-
-.btnLogin a{
+.btnSignUp a{
     text-decoration: none;
     color: rgba(121, 121, 121, 0.83);
     transition: 1s;
 }
 
-.btnLogin a:hover{
+.btnSignUp a:hover{
     color: rgba(0, 0, 0, 0.83);
     transform: translateY(2px);
 }
