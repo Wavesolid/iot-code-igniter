@@ -107,23 +107,32 @@ img {
     padding: 20px;
 }
 
-.btn{
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+.hero-btn{
     display: inline-block;
-    font-size: 16px;
-    padding: 20px;
-    margin: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 13px;
+    background:transparent;
+    position: relative;
+    cursor: pointer;
     
 }
+
+.hero-btn:hover{
+    border: 1px solid #000000;
+    background:#48E3D1;
+    transition: 1s;
+
+}
+
 
 .service h1{
     font-size: 36px;
     font-weight: 600;
+    text-align: center;
 }
 
 .service p{
@@ -142,11 +151,12 @@ img {
 
 .service-col{
     flex-basis: 31%;
-    background: rgb(202, 195, 195);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    box-shadow: -15px 15px 10px rgba(0,0,0,0.7);
 
 }
 
