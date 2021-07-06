@@ -32,7 +32,7 @@
                     <button type="submit">SignUp</button>
                 </div>
                 <div class="btnLogin">
-                    <p>have an account? <a href="">Log in</a> here</p>
+                    <p>have an account? <a href="Login">Log in</a> here</p>
                 </div>
             </div>
             <div class="kotak-kanan">

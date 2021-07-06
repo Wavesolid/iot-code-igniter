@@ -31,7 +31,7 @@
                     <button type="submit">LogIn</button>
                 </div>
                 <div class="btnSignUp">
-                    <p>Doesn't have an account? <a href="">Sign Up</a> here</p>
+                    <p>Doesn't have an account? <a href="SignUp">Sign Up</a> here</p>
                 </div>
             </div>
             <div class="kotak-kanan">
