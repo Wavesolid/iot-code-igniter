@@ -145,48 +145,55 @@ nav .logout:hover{
     align-items: center;
 }
 
-.main-button > form:first-child button{
+form > button:first-child{
     margin-left: 12px;
+    padding: 8px 10px;
+    background-color: #0AC127;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.5s;
 }
+
+form > button:first-child:hover{
+    border: 2px solid #0AC127;
+    background-color: white;
+    color: black;
+}
+
+form > button:nth-child(2){
+    margin-left: 12px;
+    padding: 8px 10px;
+    background-color: #20CFC5;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+form > button:nth-child(2):hover{
+    border: 2px solid #20CFC5;
+    background-color: white;
+    color: black;
+}
+
 
 .main-isi{
     height: 178px;
-
 }
 
-.column{
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-color: rgba(0, 0, 0, 0.15);
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.column > input{
-    margin-left: 12px;
-}
-.column > span{
+table{
+    color: rgba(0, 0, 0, 0.55);
     font-size: 12px;
-    margin-right: 36px;
+    border-collapse: collapse;
 }
 
-.column-child{
-    border-color: rgba(0, 0, 0, 0.15);
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.15);
+td,th{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.column-child > input{
-    margin-left: 12px;
-}
-.column-child > span{
-    font-size: 12px;
-    margin-right: 36px;
+td{
+    text-align: center;
 }
 
 /* bagian main table */

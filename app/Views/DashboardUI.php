@@ -64,20 +64,20 @@
             </form>
         </div>
         <div class="main-isi">
-            <div class="column">
-                <input type= "checkbox" style = "height:15px; width:15px;"> 
-                <span>Dashboard</span>
-                <span>Name</span>
-                <span>Description</span>
-                <span>Project</span>
-            </div>
-            <div class="column-child">
-            <input type= "checkbox" style = "height:15px; width:15px;"> 
-                <span>Aseelole</span>
-                <span>OnlyFans</span>
-                <span>Jarak Jauh</span>
-                <span>anjay</span>
-            </div>
+            <table style="width: 100%;">
+                <tr>
+                    <th><input type = "checkbox" style="width: 15px; height: 15px;"></th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Project</th>
+                </tr>
+                <tr>
+                    <td><input type = "checkbox" style="width: 15px; height: 15px;"></td>
+                    <td>Sadam</td>
+                    <td>Jarak Jauh</td>
+                    <td>Aselole</td>
+                </tr>
+            </table>
         </div>
     </div>
      <!-- membuat main table -->
