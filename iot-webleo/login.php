@@ -56,12 +56,12 @@
         
         //Process for Login
         //1. Get the Data from Login form
-        // $username = $_POST['username'];
-        // $password = md5($_POST['password']);
+      
+        
         $email = $_POST["email"];
-        $password = md5($_POST['password']);
-        // $raw_password = md5($_POST['password']);
-        // $password = mysqli_real_escape_string($conn, $raw_password);
+        // $password = md5($_POST['password']);
+        $raw_password = md5($_POST['password']);
+        $password = mysqli_real_escape_string($conn, $raw_password);
 
         //2. SQL to check whether the user with username and password exists or not
         // $sql = "SELECT * FROM tbl_user WHERE email='$email' AND password='$password'";
