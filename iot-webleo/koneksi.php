@@ -1,6 +1,6 @@
 <?php
      //Create Constants to Store Non Repeating Values
-     define('SITEURL', 'http://localhost/iot-web/');
+     define('SITEURL', 'http://localhost/iot-webleo/');
      define('LOCALHOST', 'localhost');
      define('DB_USERNAME', 'root');
      define('DB_PASSWORD', '');
